@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery>
+<album id="islandgirl" title="Island Girl Gallery" lgPath="gallery/islandgirl/lg/" tnPath="gallery/islandgirl/tn/" description="Island Girl Gallery">
+<img src="01.jpg" caption="" />
+<img src="02.jpg" caption="" />
+<img src="03.jpg" caption="" />
+<img src="04.jpg" caption="" />
+<img src="05.jpg" caption="" />
+<img src="06.jpg" caption="" />
+<img src="07.jpg" caption="" />
+<img src="08.jpg" caption="" />
+<img src="09.jpg" caption="" />
+<img src="10.jpg" caption="" />
+</album>
+</gallery>

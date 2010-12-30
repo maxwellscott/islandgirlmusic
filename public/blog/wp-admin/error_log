@@ -1,0 +1,2 @@
+[30-Nov-2010 11:03:29] PHP Warning:  Invalid argument supplied for foreach() in /home2/islandg4/public_html/blog/wp-admin/edit-comments.php on line 41
+[30-Nov-2010 11:03:29] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/islandg4/public_html/blog/wp-admin/edit-comments.php:41) in /home2/islandg4/public_html/blog/wp-includes/pluggable.php on line 890
