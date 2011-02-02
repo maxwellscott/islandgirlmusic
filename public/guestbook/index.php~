@@ -21,7 +21,7 @@ I am not liable for anything that results from your use of this code.
 //Title of your guestbook
   $title = "say something...";
 //Change "admin" with your own password. It's required when you delete an entry
-  $admin_password = "oops";
+  $admin_password = "30to+o83R";
 //Enter your email here
   $admin_email = "msprior@gmail.com";
 //Your website URL
