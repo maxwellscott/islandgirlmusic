@@ -19,16 +19,13 @@ Islandgirlmusic::Application.routes.draw do
   match '/calendar', :to => 'pages#calendar'
 
   get "pages/gallery"
-  match 'gallery', :to => 'pages#gallery'
 
   get "pages/guestbook"
   match '/guestbook', :to => 'posts#index'
 
   get "pages/contact"
-  match '/contact', :to => 'pages#contact'
 
   get "pages/blog"
-  match '/blog', :to => 'pages#blog'
 
   resources :posts
 

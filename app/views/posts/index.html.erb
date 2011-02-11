@@ -1,0 +1,28 @@
+<h1><u>Guest Book</u></h1>
+
+<table class="guestbook" >
+  <tr>
+    <th style="text-align:left;width:200px;">Posted</th>
+    <th style="padding-left:10px;width:150px;" >Name</th>
+    <th style="padding-left:10px;">Comment</th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @posts.each do |post| %>
+  <tr class="<%= cycle("even", "odd") %>">
+    <td><%= post.created_at.strftime("%b %e, %Y | %l:%M %p") %></td>  
+    <td style="padding-left:10px;" ><%= post.name %></td>
+    <td style="padding-left:10px;"><%= post.comment %></td>
+    <% if session[:user_id] %>
+    <td><%= link_to 'Show', post %></td>
+    <td><%= link_to 'Edit', edit_post_path(post) %></td>
+    <td><%= link_to 'Destroy', post, :confirm => 'Are you sure?', :method => :delete %></td>
+    <% end %>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Say something!', new_post_path %>
