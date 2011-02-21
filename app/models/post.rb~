@@ -1,0 +1,7 @@
+class Post < ActiveRecord::Base
+
+	scope :created, lambda {
+		where("posts.created_at is NOT NULL and posts.created_at <= ?", Time.zone.now)
+	}
+	scope :recent, order("posts.created_at DESC")
+end
