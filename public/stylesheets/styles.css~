@@ -149,11 +149,17 @@ p.bio {
 }
 .odd {
   background-color: white;
-  border: 1px solid #FF0099;
 }
 .odd td {
 	color: black;
 }
 .even {
   background-color: black;
+}
+
+#says a {
+	color: white;
+	font-size: 1.2em;
+	position: relative;
+	left: 1em;
 }

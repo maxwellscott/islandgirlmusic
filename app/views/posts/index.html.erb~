@@ -10,7 +10,7 @@
   </tr>
 
 <% @posts.each do |post| %>
-  <tr class="<%= cycle("even", "odd") -%>">
+  <tr class="<%= cycle("even", "odd") %>">
     <td><%= post.created_at.strftime("%b %e, %Y | %l:%M %p") %></td>  
     <td style="padding-left:10px;" ><%= post.name %></td>
     <td style="padding-left:10px;"><%= post.comment %></td>
@@ -25,4 +25,7 @@
 
 <br />
 
-<%= link_to 'Say something!', new_post_path %>
+<style type="css/text">
+	a {color:white;}
+</style>
+<%= link_to 'Say something!', new_post_path %></span>
